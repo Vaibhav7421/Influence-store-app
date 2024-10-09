@@ -1,0 +1,42 @@
+.hero-section {
+    background-color: #0077b6;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .social-button svg {
+    margin-right: 5px;
+  }
+  
+  .youtube {
+    background-color: #ff0000;
+  }
+  
+  .instagram {
+    background-color: #e1306c;
+  }
+  

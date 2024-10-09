@@ -1,0 +1,112 @@
+/* ProductCard.css */
+
+/* Styling for the main section */
+.product-card-section {
+  padding: 10px 0;
+}
+
+/* Flexbox to align title and button next to each other */
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* Title for Products Recommendation */
+.products-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* View All button styling */
+.view-all-btn {
+  background-color: #003366;
+  color: white;
+  border-radius: 20px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.view-all-btn:hover {
+  background-color: #002244;
+}
+
+/* Arrow icon inside the button */
+.arrow-icon {
+  margin-left: 5px;
+  height: 12px;
+}
+
+/* Horizontal scrolling for products */
+.products-list {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f5f7fa; /* Custom scrollbar for modern browsers */
+  padding: 10px 0;
+}
+
+/* Custom scrollbar for WebKit browsers */
+.products-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.products-list::-webkit-scrollbar-track {
+  background: #f5f7fa;
+}
+
+.products-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+/* Styling for individual product card */
+.product-card {
+  padding: 20px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Styling for the like icon */
+.like-icon {
+  height: 20px;
+  float: right;
+}
+
+/* Styling for product image */
+.product-image {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product name styling */
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Product price styling */
+.product-price {
+  color: #555;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the Buy/Call/Apply button */
+.buy-button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-transform: none;
+  padding: 5px 20px;
+}
